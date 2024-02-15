@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es" style="border: none;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="Autor"   content="Andrés Martín García">
+    <meta name="Descripcion"   content="Diseño de página WEB">
+    <meta name="Fecha"   content="1/1/2024">
+    <meta name="Version"   content="1.0">
+    <meta name="Keywords"   content="">
+    
+    <title>Tu Página</title>
+    <script type="text/javascript" src="JSS/Main.js"></script>
+    <link rel="stylesheet" href="Index.css">    
+    <style>
+        
+    </style>
+</head>
+<body >
+    <p style="text-align: center;border: none;">
+        <strong>Body</strong></p>
+    <header style="text-align: center;">
+        <!-- Contenido del encabezado -->
+        Header
+    </header>
+
+    <main id="inicio">
+      <div style="flex-direction: row ;font-size: large;border: none; background-color: darkgrey;">
+        Main
+        <button onclick="conmuta()">
+            Cambia
+        </button>
+        <nav>menu
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+      
+    </div> 
+      <div style="display: flex; "> 
+        <div id="aside">   
+        <aside id="Chat_user" >
+            Chat user
+        </aside>
+       
+        <aside id="ChatGPT" class="GPT" >
+            ChatGPT
+        </aside>
+        </div> 
+        <section >
+                 Seccion
+            <article >
+                <div style="border: none;" >
+                    Articulo 
+                </div>
+                <div style="display: flex;flex-direction: row;border: none;"> 
+                    <p style="flex: 1;">Parrafo</p>
+                    <p style="flex: 1;">Parrafo</p>
+                    <p style="flex: 1;">Parrafo</p>
+                </div>
+            </article>
+            <article id="webname">web conectada<br>http://127.0.0.1:5505/Ciudades.html</article>
+  
+
+            <iframe style="width: 98%; height:68%;max-width: 500px;" src="http://127.0.0.1:5505/Ciudades.html">
+                hoja Web
+            </iframe>
+
+        </section>
+      </div> 
+    </main>
+
+    <footer id="contacto" style="text-align: center;">
+        <!-- Contenido del pie de página -->
+        Footer
+    </footer>
+</body>
+</html>
