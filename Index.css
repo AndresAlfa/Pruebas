@@ -1,0 +1,83 @@
+
+* {
+    border: 1px solid rgb(184, 12, 12);
+    margin: 3px;
+}
+
+strong {
+    border: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+ /* Estilos básicos para el menú */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #880505;
+    overflow: hidden;
+    border: none;
+    transform: scale(1,.6) ;
+}
+
+li {
+    float: left;
+    border: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d6c4c4;
+}
+ /* FIN Estilos básicos para el menú */
+
+button {
+     float: left ;
+     border-radius: 10px;
+    box-shadow: 4px 3px 3px  #460707;
+    }
+ div#aside{
+    flex: 1;
+    position: relative;
+   border: none;
+}
+
+#Chat_user {
+    position: absolute;
+    width: 97%;
+    height:98vh;
+    visibility: visible;
+     }  
+.GPT {
+    width: 97%;
+    height:98vh;
+    visibility:  hidden;
+     }    
+
+     section{
+        flex:3;
+        height: 100vh;
+     }
+      article#webname{
+    
+        border-radius: 20%;
+        box-shadow: 3 3 5  #970c0c;
+    }
+     iframe {  
+         border-radius: 25%;
+        box-shadow: 3 3 5 #0a1dc5;
+     }
+     
